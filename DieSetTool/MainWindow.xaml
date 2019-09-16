@@ -1,0 +1,69 @@
+﻿<Window x:Class="DieSetTool.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DieSetTool"
+        mc:Ignorable="d"
+        Title="Die Set Tool - @Bui Anh Tuan" Height="620" MinHeight="620" MaxHeight="620" Width="595" MinWidth="595" MaxWidth="595" Margin="-2,0,0,0" Loaded="Window_Loaded">
+    <Window.Resources>
+        <Image x:Key="DEImage" Source="/DieSetTool;component/DE.jpg" Height="300" Width="360" />
+        <Image x:Key="HImage" Source="/DieSetTool;component/H.jpg" Height="300" Width="360"/>
+        <Image x:Key="SImage" Source="/DieSetTool;component/S.jpg" Height="300" Width="360"/>
+    </Window.Resources>
+    <Grid Width="587">
+
+        <Border BorderBrush="LightGray" BorderThickness="1" HorizontalAlignment="Left" Height="80" Margin="6,455,0,0" VerticalAlignment="Top" Width="563" CornerRadius="2"/>
+
+        <Border BorderBrush="LightGray" BorderThickness="1" HorizontalAlignment="Left" Height="70" Margin="6,375,0,0" VerticalAlignment="Top" Width="185" CornerRadius="2"/>
+
+        <Border BorderBrush="LightGray" BorderThickness="1" HorizontalAlignment="Left" Height="70" Margin="207,375,0,0" VerticalAlignment="Top" Width="185" CornerRadius="2"/>
+        
+        <GroupBox x:Name="groupBox2" Header="Mold dimension" HorizontalAlignment="Left" Height="440" Margin="410,5,0,0" VerticalAlignment="Top" Width="160" FontSize="14" BorderBrush="LightGray"/>
+
+        <GroupBox x:Name="groupBox1" Header="Mold type" HorizontalAlignment="Left" Margin="5,5,0,0" VerticalAlignment="Top" Height="360" Width="390" FontSize="14" BorderBrush="LightGray"/>
+
+        <RadioButton x:Name="radioButton1" Content="2 Plate S Type" VerticalContentAlignment="Center" HorizontalAlignment="Left" Margin="15,25,0,0" Height="20" Width="120" VerticalAlignment="Top"  FontSize="14" Checked="radioButton1_Checked"/>
+        <RadioButton x:Name="radioButton2" Content="3 Plate DE Type" VerticalContentAlignment="Center" HorizontalAlignment="Left" Margin="135,25,0,0" Height="20" Width="120" VerticalAlignment="Top" FontSize="14" Checked="radioButton2_Checked"/>
+        <RadioButton x:Name="radioButton3" Content="3 Plate H Type" VerticalContentAlignment="Center" HorizontalAlignment="Left" Margin="270,25,0,0" Height="20" Width="120" VerticalAlignment="Top" FontSize="14" Checked="radioButton3_Checked"/>
+
+        <Image x:Name="image" HorizontalAlignment="Left" Height="300" Margin="20,50,0,0" VerticalAlignment="Top" Width="360" RenderTransformOrigin="0.38,0.829"/>
+
+        <Label x:Name="label2" Content="Clamping Plate width"  HorizontalAlignment="Left" Margin="415,60,0,0" VerticalAlignment="Top" FontSize="14" Height="35" Width="200"/>
+        <Label x:Name="label3" Content="A dimension"  HorizontalAlignment="Left" Margin="415,120,0,0" VerticalAlignment="Top" FontSize="14" Height="35" Width="200"/>
+        <Label x:Name="label4" Content="S dimension"  HorizontalAlignment="Left" Margin="415,180,0,0" VerticalAlignment="Top"  FontSize="14" Height="35" Width="200"/>
+        <Label x:Name="label5" Content="B dimension"  HorizontalAlignment="Left" Margin="415,240,0,0" VerticalAlignment="Top" FontSize="14" Height="35" Width="200"/>
+        <Label x:Name="label6" Content="U dimension"  HorizontalAlignment="Left" Margin="415,300,0,0" VerticalAlignment="Top" FontSize="14" Height="35" Width="200"/>
+        <Label x:Name="label7" Content="C dimension"  HorizontalAlignment="Left" Margin="415,360,0,0" VerticalAlignment="Top"  FontSize="14" Height="35" Width="200"/>
+        <Label x:Name="label8"  HorizontalAlignment="Left" Margin="7,375,0,0" VerticalAlignment="Top" FontSize="14" Height="35" Width="200" Content="Length of Support Pin SPN"/>
+        <Label x:Name="label9"  HorizontalAlignment="Left" Margin="216,375,0,0" VerticalAlignment="Top" FontSize="14" Height="35" Width="200" Content="Length of Puller Bolt PBC"/>
+        <Label x:Name="label10" Content="Data Location" HorizontalAlignment="Left" Margin="8,462,0,0" VerticalAlignment="Top" FontSize="14" Height="35" Width="200" />
+        <Label x:Name="label11" Content="Save Location" HorizontalAlignment="Left" Margin="8,497,0,0" VerticalAlignment="Top" FontSize="14" Height="35" Width="200"/>
+
+        <ComboBox x:Name="cbb1" HorizontalAlignment="Left" Margin="416,33,0,0" VerticalAlignment="Top" Width="120" FontSize="14" DropDownClosed="cbb1_DropDownClosed" SelectionChanged="cbb1_SelectionChanged"/>
+
+        <ComboBox x:Name="cbb2" HorizontalAlignment="Left" Margin="416,93,0,0" VerticalAlignment="Top" Width="120" FontSize="14" />
+
+        <ComboBox x:Name="cbb3" HorizontalAlignment="Left" Margin="416,153,0,0" VerticalAlignment="Top" Width="120" FontSize="14"/>
+
+        <ComboBox x:Name="cbb4" HorizontalAlignment="Left" Margin="416,213,0,0" VerticalAlignment="Top" Width="120" FontSize="14" />
+
+        <ComboBox x:Name="cbb5" HorizontalAlignment="Left" Margin="416,273,0,0" VerticalAlignment="Top" Width="120" FontSize="14"/>
+
+        <ComboBox x:Name="cbb6" HorizontalAlignment="Left" Margin="416,333,0,0" VerticalAlignment="Top" Width="120" FontSize="14"/>
+
+        <ComboBox x:Name="cbb7" HorizontalAlignment="Left" Margin="416,393,0,0" VerticalAlignment="Top" Width="120" FontSize="14"/>
+
+        <TextBox x:Name="TB1" HorizontalAlignment="Left" Height="25" Margin="12,405,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="166" FontSize="14"  />
+        <TextBox x:Name="TB4" HorizontalAlignment="Left" Height="25" Margin="221,405,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="153" FontSize="14"  />
+        <TextBox x:Name="TB2" HorizontalAlignment="Left" Height="23" Margin="110,464,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="350" FontSize="14"  />
+        <TextBox x:Name="TB3" HorizontalAlignment="Left" Height="23" Margin="110,502,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="350" FontSize="14" />
+        
+        <Button x:Name="openfile" Content="Browse..." HorizontalAlignment="Left" Margin="480,464,0,0" VerticalAlignment="Top" Height="23" Width="75" Click="openfile_Click"/>
+        <Button x:Name="savefile" Content="Browse..." HorizontalAlignment="Left" Margin="480,502,0,0" VerticalAlignment="Top" Height="23" Width="75" Click="savefile_Click"/>
+
+        <Button x:Name="button1" Content="OK" HorizontalAlignment="Left" Margin="396,545,0,0" VerticalAlignment="Top" Width="75" Height="25" FontSize="14" IsDefault="True" Click="button1_Click"/>
+        <Button x:Name="button2" Content="Cancel" HorizontalAlignment="Left" Margin="485,545,0,0" VerticalAlignment="Top" Height="25" FontSize="14" Width="75" IsCancel="True" Click="button2_Click" />
+
+    </Grid>
+</Window>
