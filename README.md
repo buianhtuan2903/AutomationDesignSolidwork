@@ -22,13 +22,13 @@ This is a tool to export 3D Die set of Injection molding from Futaba to Solidwor
 ## Example
 
 1. UI Explain:
-![UI explain](https://github.com/anhtuan2903/Dieset-Futaba-Solidworks/blob/master/Assets/detail.jpg)
+- ![UI explain](https://github.com/anhtuan2903/Dieset-Futaba-Solidworks/blob/master/Assets/detail.jpg)
 
 2. Running
-![Running](https://github.com/anhtuan2903/Dieset-Futaba-Solidworks/blob/master/Assets/running.gif)
+- ![Running](https://github.com/anhtuan2903/Dieset-Futaba-Solidworks/blob/master/Assets/running.gif)
 
 3. Result
-![Result](https://github.com/anhtuan2903/Dieset-Futaba-Solidworks/blob/master/Assets/result.gif)
+- [Result](https://github.com/anhtuan2903/Dieset-Futaba-Solidworks/blob/master/Assets/result.gif)
 
 Demo video: [Demo video](https://github.com/anhtuan2903/Dieset-Futaba-Solidworks/blob/master/Assets/DieSetToolManual.mp4)
 
