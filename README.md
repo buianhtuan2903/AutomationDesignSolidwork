@@ -3,11 +3,8 @@ This is a tool to export 3D Die set of Injection molding from Futaba to Solidwor
 
 ### Installations
 
-1. Clone the project by git
+1. Clone the project by git ```git clone https://github.com/anhtuan2903/Dieset-Futaba-Solidworks.git```
 
-```
-git clone https://github.com/anhtuan2903/Dieset-Futaba-Solidworks.git
-```
 2. Navigate to ```DieSetTool\bin\Release```
 
 3. Run ```DieSetTool.exe```
@@ -25,27 +22,23 @@ git clone https://github.com/anhtuan2903/Dieset-Futaba-Solidworks.git
 ## Example
 
 1. UI Explain:
-![UI explain](https://github.com/anhtuan2903/autoexport-solidwork/blob/master/Assets/detail.jpg)
+![UI explain](https://github.com/anhtuan2903/Dieset-Futaba-Solidworks/blob/master/Assets/detail.jpg)
 
 3. Running
-![Running](https://github.com/anhtuan2903/autoexport-solidwork/blob/master/Assets/run.jpg)
+![Running]()
 
 4. Finish
-![Finish](https://github.com/anhtuan2903/autoexport-solidwork/blob/master/Assets/finish.jpg)
+![Finish]()
 
 5. Result
-![Result](https://github.com/anhtuan2903/autoexport-solidwork/blob/master/Assets/result.jpg)
+![Result]()
 
-Demo video: [Demo video](https://github.com/anhtuan2903/autoexport-solidwork/blob/master/Assets/DieSetToolManual.mp4)
+Demo video: [Demo video](https://github.com/anhtuan2903/Dieset-Futaba-Solidworks/blob/master/Assets/DieSetToolManual.mp4)
 
 
 ## Deployment
 
-1. Clone the project by git
-
-```
-git clone https://github.com/anhtuan2903/Dieset-Futaba-Solidworks.git
-```
+1. Clone the project by git ```git clone https://github.com/anhtuan2903/Dieset-Futaba-Solidworks.git```
 
 2. Open solution by Microsoft Visual Studio 2015
 
