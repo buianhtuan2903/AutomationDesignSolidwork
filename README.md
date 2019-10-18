@@ -1,5 +1,21 @@
 # Dieset-Futaba-Solidworks
-This is a tool to export 3D Die set of Injection molding from Futaba to Solidworks 2018
+Application automatic export 3D Design in Solidworks 2018. Use for Mechanical Engineer.
+
+## Example
+
+1. UI Explain:
+
+ ![UI explain](https://github.com/anhtuan2903/Dieset-Futaba-Solidworks/blob/master/Assets/detail.jpg)
+
+2. Running
+
+ ![Running](https://github.com/anhtuan2903/Dieset-Futaba-Solidworks/blob/master/Assets/running.gif)
+
+3. Result
+
+ ![Result](https://github.com/anhtuan2903/Dieset-Futaba-Solidworks/blob/master/Assets/result.gif)
+
+Demo video: [Demo video](https://github.com/anhtuan2903/Dieset-Futaba-Solidworks/blob/master/Assets/DieSetToolManual.mp4)
 
 ### Installations
 
@@ -18,23 +34,6 @@ This is a tool to export 3D Die set of Injection molding from Futaba to Solidwor
 - Keep sanity, no boring and discouragement anymore
 
 - Free coffee time when waiting
-
-## Example
-
-1. UI Explain:
-
- ![UI explain](https://github.com/anhtuan2903/Dieset-Futaba-Solidworks/blob/master/Assets/detail.jpg)
-
-2. Running
-
- ![Running](https://github.com/anhtuan2903/Dieset-Futaba-Solidworks/blob/master/Assets/running.gif)
-
-3. Result
-
- ![Result](https://github.com/anhtuan2903/Dieset-Futaba-Solidworks/blob/master/Assets/result.gif)
-
-Demo video: [Demo video](https://github.com/anhtuan2903/Dieset-Futaba-Solidworks/blob/master/Assets/DieSetToolManual.mp4)
-
 
 ## Deployment
 
