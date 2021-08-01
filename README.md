@@ -1,4 +1,4 @@
-# Dieset-Futaba-Solidworks
+# Automation Design Solidworks
 Application automatic export 3D Design in Solidworks 2018. Use for Mechanical Engineer.
 
 ## Example
