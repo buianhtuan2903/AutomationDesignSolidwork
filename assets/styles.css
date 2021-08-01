@@ -1,0 +1,167 @@
+*{
+  box-sizing: border-box;
+  overflow-wrap: break-word;
+  font-size: 16px;
+  scroll-behavior: smooth;
+  font-family: 'Rubik', sans-serif;
+}
+
+a, a:hover{
+  text-decoration: none; 
+  color: black;
+}
+
+.row{
+  margin: 0px;
+}
+
+ul{
+  padding: 0 !important ;
+}
+
+li{
+  list-style: none;
+}
+
+.material-icons{
+  font-size: 24px !important;
+}
+
+.btn{
+  display: flex;
+}
+/* Navbar */
+.navbar{
+  background-color: #0E1623;;
+  color: white;
+}
+
+.logo{
+  font-size: 1.2rem;
+}
+
+.show > ul > .nav-link, .collapsing > ul > .nav-link{
+  width: 100%;
+  text-align: center;
+}
+
+img, video{
+  width: 100%;
+  max-width: 800px;
+  padding: 2rem 0;
+}
+
+/* Sidebar */
+.side-link:hover{
+  color: rgb(64, 107, 184);
+}
+
+.activecolor{
+  color: #406BB8 !important;
+  font-weight: bold;
+}
+
+/* Landing */
+.nav-link, .nav-item, .info{
+  color: rgba(255, 255, 255,0.6);
+  justify-content: center;
+  align-self: center;
+}
+
+.nav-link:hover, .nav-item:hover, .info:hover{
+  color: white;
+}
+
+.heading{
+  color: #406BB8;
+  font-size: 2rem;
+  font-weight: 500;
+  padding: 1.5rem 0;
+}
+
+.title , .title:hover{
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.title-location{
+  color: #406BB8;
+  font-style: italic;
+}
+
+.cursor-pointer{
+  cursor: pointer;
+}
+
+.btn-expand , .btn-expand:hover{
+  background-color: #406BB8;
+  color: white;
+  display: flex;
+  padding: 0.5rem;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+/* Project */
+.card{
+  transform-style: preserve-3d;
+  border: 1px solid #e9e9e9;
+}
+
+.card-header{
+    text-align: center;
+    padding: 1rem 0;
+    font-weight: 700;
+    color: white;
+    background-color: #406BB8;
+}
+
+.btn-price{
+  background-color: #e9e9e9;
+  font-weight: 700;
+  font-size: 1.2rem;
+  display:inline-flex;
+  border: none;
+}
+@media screen and (max-width: 992px) {
+  .zoom:hover, .zoom:focus{
+      -webkit-transform: scale(1.1);
+      transform: scale(1.1);
+      transition-duration: 0.6s;
+  }
+}
+
+/* Skill */
+.btn-skill , .btn-skill:hover{
+  background-color: #406BB8;
+  color: white;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 1.25px;
+  border: none;
+}
+
+.btn-skill , .btn-price{
+  box-shadow: 0px 1px 3px rgba(0,0,0,0.2);
+  -webkit-box-shadow: 0px 1px 3px rgba(0,0,0,0.2);
+  -o-box-shadow: 0px 1px 3px rgba(0,0,0,0.2);
+  -ms-box-shadow: 0px 1px 3px rgba(0,0,0,0.2);
+}
+
+.card:hover , .btn-price:hover, .btn-skill:hover{
+  box-shadow: 0px 2px 14px rgba(0,0,0,0.2);
+  -webkit-box-shadow: 0px 2px 14px rgba(0,0,0,0.2);
+  -o-box-shadow: 0px 2px 14px rgba(0,0,0,0.2);
+  -ms-box-shadow: 0px 2px 14px rgba(0,0,0,0.2);
+}
+
+.card-body > div > .btn-price:hover{
+  background-color: #406BB8;
+  color: white;
+}
+
+/* Bottom */
+#bottom{
+  background-color: #191A1D;
+}
