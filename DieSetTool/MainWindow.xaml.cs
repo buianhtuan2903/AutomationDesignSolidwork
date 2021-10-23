@@ -660,30 +660,30 @@ namespace DieSetTool
         }
         private void Window_Loaded(object sender, RoutedEventArgs e)
         {
-            double abc = DateTime.Now.ToOADate();
+            //double abc = DateTime.Now.ToOADate();
             // Setting end day trial
-            if (DateTime.Now.ToOADate() >= 43800)
-            {
+            //if (DateTime.Now.ToOADate() >= 43800)
+            //{
                
-                TB1.IsEnabled = false;
-                TB2.IsEnabled = false;
-                TB3.IsEnabled = false;
-                TB4.IsEnabled = false;
-                cbb1.IsEnabled = false;
-                cbb2.IsEnabled = false;
-                cbb3.IsEnabled = false;
-                cbb4.IsEnabled = false;
-                cbb5.IsEnabled = false;
-                cbb6.IsEnabled = false;
-                cbb7.IsEnabled = false;
-                radioButton1.IsEnabled = false;
-                radioButton2.IsEnabled = false;
-                radioButton3.IsEnabled = false;
-                button1.IsEnabled = false;
-                openfile.IsEnabled = false;
-                savefile.IsEnabled = false;
-                System.Windows.MessageBox.Show("Your free trial has ended. Please contact buianhtuan2903@gmail.com for purchase license");
-            }
+            //    TB1.IsEnabled = false;
+            //    TB2.IsEnabled = false;
+            //    TB3.IsEnabled = false;
+            //    TB4.IsEnabled = false;
+            //    cbb1.IsEnabled = false;
+            //    cbb2.IsEnabled = false;
+            //    cbb3.IsEnabled = false;
+            //    cbb4.IsEnabled = false;
+            //    cbb5.IsEnabled = false;
+            //    cbb6.IsEnabled = false;
+            //    cbb7.IsEnabled = false;
+            //    radioButton1.IsEnabled = false;
+            //    radioButton2.IsEnabled = false;
+            //    radioButton3.IsEnabled = false;
+            //    button1.IsEnabled = false;
+            //    openfile.IsEnabled = false;
+            //    savefile.IsEnabled = false;
+            //    System.Windows.MessageBox.Show("Your free trial has ended. Please contact buianhtuan2903@gmail.com for purchase license");
+            //}
         }
 
     }

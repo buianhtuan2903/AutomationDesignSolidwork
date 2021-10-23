@@ -1,0 +1,16 @@
+D:\Work\AutomationDesignSolidwork\DieSetTool\obj\Debug\DieSetTool.csprojResolveAssemblyReference.cache
+D:\Work\AutomationDesignSolidwork\DieSetTool\obj\Debug\DieSetTool.csproj.ResolveComReference.cache
+D:\Work\AutomationDesignSolidwork\DieSetTool\obj\Debug\MainWindow.g.cs
+D:\Work\AutomationDesignSolidwork\DieSetTool\obj\Debug\App.g.cs
+D:\Work\AutomationDesignSolidwork\DieSetTool\obj\Debug\DieSetTool_Content.g.cs
+D:\Work\AutomationDesignSolidwork\DieSetTool\obj\Debug\DieSetTool_MarkupCompile.cache
+D:\Work\AutomationDesignSolidwork\DieSetTool\obj\Debug\DieSetTool_MarkupCompile.lref
+D:\Work\AutomationDesignSolidwork\DieSetTool\bin\Debug\DieSetTool.exe.config
+D:\Work\AutomationDesignSolidwork\DieSetTool\bin\Debug\DieSetTool.exe
+D:\Work\AutomationDesignSolidwork\DieSetTool\bin\Debug\DieSetTool.pdb
+D:\Work\AutomationDesignSolidwork\DieSetTool\obj\Debug\MainWindow.baml
+D:\Work\AutomationDesignSolidwork\DieSetTool\obj\Debug\DieSetTool.g.resources
+D:\Work\AutomationDesignSolidwork\DieSetTool\obj\Debug\DieSetTool.Properties.Resources.resources
+D:\Work\AutomationDesignSolidwork\DieSetTool\obj\Debug\DieSetTool.csproj.GenerateResource.Cache
+D:\Work\AutomationDesignSolidwork\DieSetTool\obj\Debug\DieSetTool.exe
+D:\Work\AutomationDesignSolidwork\DieSetTool\obj\Debug\DieSetTool.pdb
